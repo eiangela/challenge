@@ -1,0 +1,45 @@
+/* text */
+.faq {
+    background: var(--main-background);
+    padding: 2%;
+}
+
+.faq__text {
+    text-align: center;
+}
+
+.faq__text__paragraph {
+    color: var(--text-color);
+    font-size: 1.50rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.faq__text__title {
+    color: var(--title-color);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+
+/* questions */
+.questions {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.questions__text {
+    color: var(--text-color);
+    font-weight: 500;
+
+}
+
+.lines {
+    background-color: #d4cfcf;
+    border: none;
+    height: 1px;
+    margin: 2rem 0;
+    width: 800px;
+
+}

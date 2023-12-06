@@ -1,0 +1,25 @@
+@import url("./css/brand-header.css");
+@import url("./css/menu.css");
+@import url("./css/introduction-content.css");
+@import url("./css/second-introduction.css");
+@import url("./css/services.css");
+@import url("./css/portfolio.css");
+@import url("./css/faq.css");
+@import url("./css/team.css");
+@import url("./css/client.css");
+@import url("./css/contact.css");
+
+
+:root {
+    --main-background: #FEF8F5; 
+    --alternate-background: #FFFFFE;
+    --accent-color: #EB5D1E;
+    --main-font-family: "Poppins";
+    --title-color: #4e4039;
+    --text-color: #a29289;
+    --hover-background: #BD3900;
+}
+
+body {
+    font-family: var(--main-font-family);
+}

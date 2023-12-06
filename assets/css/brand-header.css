@@ -1,0 +1,9 @@
+.brand-header {
+    align-items: center;
+    background: var(--alternate-background);
+    display: flex;
+    height: 70px; 
+    justify-content: space-evenly;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

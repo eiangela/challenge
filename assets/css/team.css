@@ -1,0 +1,33 @@
+/* text */
+.team {
+    background: var(--alternate-background);
+    padding: 2%;
+}
+
+.team__text {
+    text-align: center;
+}
+
+.team__text__paragraph {
+    color: var(--text-color);
+    font-size: 1.50rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.team__text__title {
+    color: var(--title-color);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+
+/* images */
+.images-team__group { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 2% 5%;
+}
