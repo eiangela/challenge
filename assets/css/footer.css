@@ -1,0 +1,21 @@
+.footer-content {
+  background-color: var(--main-background);
+  padding: 1.5%;
+  display: flex;
+  justify-content: space-around;
+}
+.text-copy {
+  font-size: 0.875rem;
+}
+
+.footer-content strong {
+  font-weight: bold;
+}
+
+.text-boot {
+  font-size: 0.775rem;
+}
+
+.orange-text {
+  color: var(--accent-color);
+}

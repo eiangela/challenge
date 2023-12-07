@@ -8,6 +8,12 @@
 @import url("./css/team.css");
 @import url("./css/client.css");
 @import url("./css/contact.css");
+@import url("./css/subscribe.css");
+@import url("./css/end-menu.css");
+@import url("./css/footer.css");
+
+
+
 
 
 :root {
@@ -22,4 +28,18 @@
 
 body {
     font-family: var(--main-font-family);
+}
+
+.text-paragraph {
+    color: var(--text-color);
+    font-size: 1.50rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.text-title {
+    color: var(--title-color);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
 }
