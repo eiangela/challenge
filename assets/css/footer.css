@@ -19,3 +19,19 @@
 .orange-text {
   color: var(--accent-color);
 }
+
+@media screen and (max-width: 720px) {
+  .footer-content {
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-copy {
+    margin-bottom: 1rem;
+  }
+
+  .section-divider-footer {
+      border-top: 3px solid #ffeee5;
+  }
+}

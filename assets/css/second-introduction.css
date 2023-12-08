@@ -45,7 +45,6 @@
 .information-content__text {
   color: var(--text-color);
   font-size: 0.75rem;
-  margin-bottom: 2rem;
   line-height: normal;
 }
 

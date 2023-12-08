@@ -12,10 +12,6 @@
 @import url("./css/end-menu.css");
 @import url("./css/footer.css");
 
-
-
-
-
 :root {
     --main-background: #FEF8F5; 
     --alternate-background: #FFFFFE;
@@ -43,3 +39,7 @@ body {
     margin-bottom: 3rem;
     font-weight: 600;
 }
+
+.section-divider {
+    border-bottom: 2px solid #ffeee5;
+  }

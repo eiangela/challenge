@@ -36,3 +36,18 @@
   justify-content: center;
   padding: 2% 5%;
 }
+
+@media screen and (max-width: 720px) {
+  .portfolio {
+    padding: 2% 0;
+  }
+
+  .images__group {
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 5%;
+  gap: 20px;
+
+  }
+}

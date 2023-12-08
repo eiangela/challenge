@@ -41,10 +41,7 @@
   background: var(--hover-background);
 }
 
-/* divider */
-.section-divider {
-  border-bottom: 2px solid #ffeee5;
-}
+
 
 @media screen and (max-width: 720px) {
   .introduction-content__wrapper {

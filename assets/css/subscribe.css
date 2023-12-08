@@ -39,3 +39,18 @@
 .subscribe__info__button:hover {
   background: var(--hover-background);
 }
+
+@media screen and (max-width: 720px) {
+  .subscribe {
+    padding: 2rem;
+  }
+.subscribe__info__paragraph {
+  line-height: normal;
+}
+
+  .subscribe__info__input {
+    width: 100%; 
+    margin-bottom: 1rem;
+  }
+
+}

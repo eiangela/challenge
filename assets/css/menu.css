@@ -43,3 +43,9 @@
   color: var(--accent-color);
   font-weight: bold;
 }
+
+@media screen and (max-width: 720px) {
+  .menu {
+    display: none;
+  }
+}

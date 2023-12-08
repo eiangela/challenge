@@ -65,6 +65,7 @@
 
 .card-form__info {
   display: flex;
+  justify-content: space-between;
 }
 
 .card-form__info__item label,
@@ -76,7 +77,7 @@
 .card-form__info__item {
   box-sizing: border-box;
   display: inline-block;
-  width: 50%;
+  width: 48%;
 }
 
 .card-form__info__item input {
@@ -85,7 +86,7 @@
   font-family: var(--main-font-family);
   font-size: 15px;
   height: 40px;
-  width: 90%;
+  width: 100%;
 }
 
 .card-form__info__item input::placeholder {
@@ -160,4 +161,68 @@
 
 .button-send:hover {
   background: var(--hover-background);
+}
+
+/* responsive */
+@media screen and (max-width: 720px) {
+  /* card contact */
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .card-contact {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+  }
+
+  /* card form */
+  .card-form {
+    margin: 0;
+    margin-top: 1rem;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+  }
+
+  .card-form__info {
+    flex-direction: column;
+  }
+
+  .card-form__info__item {
+    width: 98%;
+  }
+
+  .card-form__info__item input {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .card-form__info__sub {
+    width: 98%;
+  }
+
+  .card-form__info__subject {
+    margin: 0;
+  }
+
+  .card-form__info__subject input {
+    margin-bottom: 1rem;
+  }
+
+  .card-form__info__area {
+    margin-top: 1rem;
+  }
+
+  .card-form__info__area textarea {
+    padding: 0;
+    width: 101%;
+  }
+
+  .card-form__info__area textarea::placeholder {
+    padding: 1rem;
+  }
 }

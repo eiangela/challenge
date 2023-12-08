@@ -63,3 +63,9 @@
 .menu-icons__img {
   margin-right: 5px;
 }
+
+@media screen and (max-width: 720px) {
+  .end-menu {
+    display: none;
+  }
+}
