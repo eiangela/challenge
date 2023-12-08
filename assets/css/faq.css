@@ -1,41 +1,39 @@
 /* text */
 .faq {
-    background: var(--main-background);
-    padding: 2%;
-  }
-  
-  .faq__text {
-    text-align: center;
-  }
-  
-  /* questions */
-  .questions {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  
-  .questions__text {
-    color: var(--text-color);
-    font-weight: 500;
-    display: flex;
-    justify-content: start;
-    padding: 1rem;
-  }
-  
+  background: var(--main-background);
+  padding: 2%;
+}
+
+.faq__text {
+  text-align: center;
+}
+
+/* questions */
+.questions {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.questions__text {
+  color: var(--text-color);
+  font-weight: 500;
+  display: flex;
+  justify-content: start;
+  padding: 1rem;
+}
+
+.lines {
+  background-color: #d4cfcf;
+  border: none;
+  height: 1px;
+  margin: 1rem auto;
+  width: 800px;
+}
+
+@media screen and (max-width: 720px) {
   .lines {
-    background-color: #d4cfcf;
-    border: none;
-    height: 1px;
-    margin: 1rem auto; 
-    width: 800px; 
+    width: 100%;
+    max-width: none;
   }
-  
-  
-  @media screen and (max-width: 720px) {
-    .lines {
-      width: 100%; 
-      max-width: none; 
-    }
-  }
+}

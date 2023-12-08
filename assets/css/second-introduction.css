@@ -52,7 +52,7 @@
   .second-introduction-content__wrapper {
     padding: 0;
     flex-direction: column;
-    width: 100%vw;
+    width: 100%;
   }
 
   .second-text-content__title {

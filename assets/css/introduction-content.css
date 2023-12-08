@@ -41,8 +41,6 @@
   background: var(--hover-background);
 }
 
-
-
 @media screen and (max-width: 720px) {
   .introduction-content__wrapper {
     padding: 0;
